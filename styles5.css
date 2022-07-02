@@ -1,0 +1,1018 @@
+
+#header {
+    height: 100px;
+    width: 100%;
+    margin-top: -10px;
+    background-image: url("images/supermario1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: darkgreen;
+    background-position: right;
+    font-style: initial;
+    color: red;
+    font-weight: bold;
+	text-align:center;
+	
+}
+
+.welcome{
+	font-style:italic;
+    font-weight:lighter;
+    margin-left:10%;
+	text-align: center;
+
+}
+
+
+.rest-name{
+	font-weight: bold;
+}
+
+
+
+h1 {
+    font-style: italic;
+    color: white;
+    font-weight: bold;
+	padding-top: 30px;
+	text-align: center;
+	
+}
+#enjoy{
+	font-style: italic;
+    color: white;
+    font-weight: bold;
+	text-align: center;
+	padding-top:150px;
+	font-size:5em;
+	
+}
+h3{
+	text-align: center;
+	font-size: 2em;
+	font-color:black;
+}
+
+h2{
+	<!--font-size: 2em;
+	font-style: oblique;-->
+}
+#about-us{
+	font-style: italic;
+    color: white;
+    font-weight: bold;
+	text-align: center;
+	font-size:5em;
+	
+	
+}
+
+
+a:visited {
+    color: black;
+}
+
+
+a:link{color:red;
+
+
+}
+
+
+a:hover {
+    color: blueviolet;
+}
+
+
+a:active{color:yellowgreen;
+
+}
+
+
+
+nav {
+    /*position: center;*/
+	margin-top: 0px;
+    width: 100%;
+    text-align: center;
+	float:left;
+}
+
+  
+nav a{
+    color:red;
+    font-size:1.5em;
+    text-decoration:none;
+    font-style:italic;  
+}
+
+
+nav ul {
+    list-style-type: none;
+    position: absolute;
+	text-align: center;
+    }
+
+nav ul li {
+        display: inline;
+    }
+
+nav ul li a {
+        padding: 20px;
+        text-size-adjust:auto; 
+    }
+ 
+nav ul li a:visited {
+	color: black;
+	
+}
+
+#page-image{ 
+	background-image: url("images/Restaurant.jpg");
+	background-attachment: fixed;
+	background-position:bottom;
+	background-size: cover;
+	height: 700px;	
+	float:left;
+	width:100%;
+	
+}
+
+
+
+    
+/*all footer setups and columns*/
+#footer{
+   background-color:#73606E;
+    width:100%;
+    height:200px;
+	float:left;
+	
+	
+}
+
+
+
+#column 1{
+	
+	text-align: center;
+	width: 33.3%;
+    float: left;
+	
+	
+	
+}
+
+.social{
+	list-style: none;
+	margin-top: 10px;
+    padding-left:150px;
+}
+.social a{
+	color:blue;
+	font-size: 1.5em;
+	
+	}
+
+
+.social li{
+	padding-top: 1em;
+	
+	
+}
+
+.social a:hover{
+	color:white;
+}
+
+#column2{
+	
+	text-align: center;
+	width: 33.3%;
+	float: left;
+	margin-left: 33.3%;
+	margin-top: -175px;
+	position: sticky;
+	
+	
+	
+}
+
+.info{
+	list-style: none;
+	
+}
+
+
+.info a{
+	color:white;
+	text-decoration: underline;
+	font-size: 1.2em;
+	
+}
+.info li{
+	padding-top: 1.3em;
+	
+}
+#address{
+	width:33.3%;
+	float:left;
+	text-align:center;
+	margin-left: 66.6%;
+	margin-top:-175px;
+	
+}
+.contact{
+	padding-top: 10px;
+	color:white;
+	font-size: 1em;
+}
+#copyrightdiv{
+	background-color:#73606E;
+	padding: 2% 0 0 0;
+	
+}
+
+#footer p{
+	text-align: center;
+	
+}
+
+
+.copyright{
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	color:#350A14;
+	margin-top: -3%;
+}
+
+
+
+#navbar {
+	position: relative;
+    height:75px;
+    width:100%;
+    background-color: lightgreen;
+	margin: 0 auto;
+	text-align: center;
+	
+}
+#chef{
+	 background-image:url("images/chef picture.jpg");
+	 background-size: cover;
+	 background-position: center;
+	 Height:500px;
+	 width:25%;
+	 float:left;
+	
+}
+
+
+
+#content {
+ 
+    background-color: #D684E5;
+    width:75%;
+    height:500px;
+  <!--  max-height: fit-content;-->/*dont use this.streches image over the borders*/
+    padding: 10px;
+    text-align: center;
+    font-size: 1.2em;
+    margin: auto;
+	margin-top: 0px;
+	float:left;
+	
+	}
+
+
+/*menu page*/
+#menu{
+	background-image:url("images/menu image.jpg");
+	background-size: cover;
+	background-position:center;
+	
+	
+}
+
+
+
+/*this are ale the boxex on the menu page*/
+.box-title{
+	text-align:center;
+	padding-top: -10px;
+	color: white;
+	font-size:1.2em;
+	font-weight: bold;
+	
+}
+/*starters,pizzza,pastas...*/
+#menu-items{
+	background-color: #EF81B9;
+	height:300px;
+	width:300px;
+	margin-left: 150px;
+	margin-top: 50px;
+	border-style: solid ;
+	border-color: white;
+	border-width: thick;
+	float:left;
+	
+	}
+
+
+	
+
+
+.all-lists{
+	
+       list-style:none;
+	   color: white;
+	   font-size: 1em;	
+	   text-align: left;
+	   padding-top:-40px;
+	
+}
+
+   #starter-picture{
+    background-image:url("images/starter picture.jpg"); 
+	   background-size: cover;
+	   border-width: thick;
+	   border-style: solid;
+	   border-color:white;
+	   height:300px;
+	   width:300px;
+	   float: left;
+	   margin-top:50px;
+	   margin-left: 250px;
+	   
+}
+#pizza-picture {
+	 background-image: url("images/Pizza final menu.jpg");
+	   background-size: cover;
+	   border-width: thick;
+	   border-style: solid;
+	   border-color:white;
+       height:300px;
+	   width:300px;
+	   float:left;
+	   margin-top:50px;
+	   margin-left: 250px;
+}
+ 
+#pasta-picture{
+	   background-image: url("images/pasta picture.jpg");
+	   background-size: cover;
+	   border-width: thick;
+	   border-style: solid;
+	   border-color:white;
+       height:300px;
+	   width:300px;
+	   float:left;
+	   margin-top:50px;
+	   margin-left: 250px;
+	
+}
+
+#meat-picture{
+	   background-image: url("images/meat dish.jpg");
+	   background-size: cover;
+	   border-width: thick;
+	   border-style: solid;
+	   border-color:white;
+       height:300px;
+	   width:300px;
+	   float:left;
+	   margin-top:50px;
+	   margin-left: 250px;
+	
+}
+#veg-picture{
+	   background-image:url("images/Vegetarian dish.jpg");
+	   background-size: cover;
+	   border-width: thick;
+	   border-style: solid;
+	   border-color:white;
+       height:300px;
+	   width:300px;
+	   float:left;
+	   margin-top:50px;
+	   margin-left: 250px
+	
+}
+#vegan-picture{
+	   background-image: url("images/vegan dish.jpg");
+	   background-size: cover;
+	   border-width: thick;
+	   border-style: solid;
+	   border-color:white;
+       height:300px;
+	   width:300px;
+	   float:left;
+	   margin-top:50px;
+	   margin-left: 250px
+	
+	
+}
+#dessert{
+	   background-image: url("images/dessert picture.jpg");
+	   background-size: cover;
+	   border-width: thick;
+	   border-style: solid;
+	   border-color:white;
+       height:300px;
+	   width:300px;
+	   float:left;
+	   margin-top:50px;
+	   margin-left: 250px
+	
+}
+
+.kids{
+	color:white;
+	font-size:1em;
+	text-align: center;
+}   
+#kids-picture{
+	   background-image:url("images/super mario new.jpg");
+	   background-size: cover;
+	   border-width: thick;
+	   border-style: solid;
+	   border-color:white;
+       height:300px;
+	   width:300px;
+	   float:left;
+	   margin-top:50px;
+	   margin-left: 250px;
+}
+
+#bottle{
+	   background-image:url("images/wine picture.jpg");
+	   background-size: cover;
+	   border-width: thick;
+	   border-style: solid;
+	   border-color:white;
+       height:300px;
+	   width:300px;
+	   float:left;
+	   margin-top:50px;
+	   margin-left: 250px;
+	
+	
+}
+
+#bottle-white{
+	   background-image: url("images/white wine.jpg");
+	   background-size: cover;
+	   border-width: thick;
+	   border-style: solid;
+	   border-color:white;
+       height:300px;
+	   width:300px;
+	   float:left;
+	   margin-top:50px;
+	   margin-left: 250px;
+	
+}
+#beers{
+	   background-image: url("images/beer picture.jpg");
+	   Background-position:center;
+	   background-size: cover;
+	   border-width: thick;
+	   border-style: solid;
+	   border-color:white;
+       height:300px;
+	   width:300px;
+	   float:left;
+	   margin-top:50px;
+	   margin-left: 250px;
+	
+}
+#alergens{
+	   border-width: thin;
+	   border-style: solid;
+	   border-color:black;
+       height:150px;
+	   width:100%;
+	   float:left;
+	   Background-color:#BFBFE5;
+	   margin-top: 50px;
+	   text-align: center;
+}	
+/*end of menu page*/
+	
+.warning{
+	color:red;
+}
+
+/*about us*/
+
+
+  #about{
+     background-image: url("images/about rest.jpg");
+     background-size:cover;
+	 background-repeat: no-repeat;
+	 background-position: bottom;
+	 height: 400px;
+     width: 100%;
+	 float: left;
+}
+
+#history{
+	background-color: #645643;
+	height:600px;
+	width:50%;
+	float:left;
+	text-align: center;
+	
+}
+
+.marian{
+	color:white;
+	font-weight: bold;
+	font-size:1.3em;
+	font-style:italic;
+}
+
+.legend{
+	color: white;
+	font-weight: bold;
+	font-style:italic;
+	font-size:1.2em;
+	
+	
+}
+
+
+#mario{
+	
+	background-image: url("images/chef picture.jpg");
+	background-size:cover;
+	background-position: center;
+	float: left;
+    height:600px;
+	width: 25%;
+	text-align:center;
+	
+	
+}
+
+#luigi{
+	background-image: url("images/chef 2.jpg");
+	background-size:cover;
+	background-position: center;
+	float: left;
+    height:600px;
+	width: 25%;
+	text-align:center;
+	
+}
+.name1{
+	color:red;
+	font-size: 3em;
+	font-weight: bold;
+	margin-top: 500px;
+}
+
+.name2{
+	color:blue;
+	font-size: 3em;
+	font-weight: bold;
+	margin-top: 500px;
+	
+}
+#times{
+	
+	height:450px;
+	width:50%;
+	background-color: black;
+	float:left;
+	text-align: center;
+	
+}
+.open{
+	color:white;
+	font-size:1.3em;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-style: oblique;
+	margin-top:50px;
+	
+
+	
+}
+.hours{
+	color:white;
+	font-style: oblique;
+	font-size:1.6em;
+	
+}
+
+#phone{
+	height:450px;
+	width:50%;
+	float:left;
+	text-align: center;
+	background-color:#B14C4C;
+	
+	
+}
+.contact2{
+         margin-top:100px;
+	     font-size:1.5em;
+	     color:white;
+}
+/*end of about us*/
+
+/*contact page*/
+#contact{
+	background-image: url("images/old phone3.jpg");
+	background-size: cover;
+	
+	background-repeat: no-repeat;
+	background-position: center;
+	float: left;
+	height:700px;
+	width: 100%;
+	
+}
+
+#media{
+	height:250px;
+	width:200px;
+	background-color: #54735D;
+	margin-top: 15%;
+	margin-left: 15%;
+	float:left;
+}
+
+.social2{
+	list-style:none;
+	margin-left: 40px;
+	
+}
+.social2 li{
+	font-size: 40px;
+	
+}
+	
+ .social2 a{
+	color:blue; 
+}
+
+.social2 a:hover{
+	color:white;
+}
+
+.media-title{
+	padding-top:-5px;
+	font-style:italic;
+	color:white;
+	text-align: center;
+	font-size:1.2em;
+	
+}
+#contact-page{
+	background-color:#54735D;
+	width:350px;
+	height:250px;
+	
+	text-align: center;
+	margin-top: 15%;
+	margin-left: 25%;
+	float: left;
+	
+	
+}
+.contact3{
+	text-align:center;
+	color:white;
+	padding-top: 30px;
+	font-size:1.2em;
+	
+}
+/*end of contact page*/
+
+
+/*special offers page*/
+
+#pig{
+	background-image:url("images/piggy.jpg");
+	background-size: cover;
+	background-position: top;
+	height:700px;
+	width:100%;
+	float: left;
+}
+	
+#bird{
+	height:300px;
+	width:30%;
+	background-color: #B1E656;
+	margin-top:15%;
+	margin-left:30px;
+	float: left;
+	text-align: center;
+	font-size: 1.em;
+	overflow: hidden;
+	
+}
+.early{
+	font-size: 1.5em;
+	font-weight: bold;
+	font-style:italic;
+	
+}
+#group{height:300px;
+	width:30%;
+	background-color: #B1E656;
+	float: left;
+	text-align: center;
+	font-size: 1.em;
+	margin:20px;
+	margin-top: 15%;
+	overflow: hidden;
+	
+	}	
+#group2{height:300px;
+	width:30%;
+	background-color: #B1E656;
+	
+	text-align: center;
+	font-size: 1.em;
+	margin:20px;
+	margin-top: 15%;
+	overflow: hidden;
+	
+	}	
+
+
+
+
+
+
+
+
+/*end of special offers*/
+	
+/*booking page starts here*/
+
+#sit-down{
+	background-image: url("images/reserved.jpg");
+	background-size:cover;
+	width:100%;
+	height: 400px;
+	background-position: bottom;
+	float: left;
+	
+	
+	
+	
+}
+#widget{
+	width:50%;
+	height:300px;
+	float:left;
+}
+/*booking end*/
+
+
+#ball{
+	 background-image: url("images/supermario1.jpg");
+	background-size:cover;
+	background-position: top;
+	height: 300px;
+	width:50%;
+	float:right;
+}
+
+/*delivery page*/
+
+
+#deliver{
+	
+	width: 100%;
+	height:700px;
+	background-image:url("images/delivery 8.jpg");
+	background-size: cover;
+	background-position: bottom;
+	float:left;
+	align-items: center;
+	
+		
+	}
+
+#order{
+	margin-top:10%;
+	margin-left: 40%;
+	
+}
+
+.glf-button{
+	color:red;
+	top:70%;
+	
+}
+/*gallery page below*/
+
+#gallery{
+	display: flex;
+	width: 100%;
+	padding:10% 2;
+	height:90vh;
+	margin-top:10%;
+	
+}
+	
+#photo{
+	flex:1;
+	overflow: hidden;
+	box-shadow: 0 20px 30px rgba(0,0,0,0,1);
+	line-height: 0;
+	transition: 0.5s;
+}
+
+#photo >img{
+	
+	width:200%;
+	height: calc(100%-20vh);
+	object-fit: cover;
+	transition: 0.5s;
+}
+	
+#photo >span{
+	font-size:1.5em;
+	display: block;
+	text-align: center;
+	height:100vh;
+	line-height: 2.6;
+	color: black;/*looks bad with text.needs to be fixed*/
+}	
+#photo:hover{
+	
+	flex:1 1 50%;
+	
+}
+
+#photo:hover>img{
+	
+	width:80%;
+	height: 80%;
+	
+	
+}
+
+#viewing{
+	background-color: black;
+}
+	
+.pics{
+	font-style: italic;
+    color: white;
+    font-weight: bold;
+	text-align: center;
+	font-size:2em;
+	
+}
+/*end of gallery page*/
+
+/*careers*/
+
+#job{
+	background-image: url("images/Career.jpg");
+	background-size:cover;
+	background-position:bottom;
+    width:100%;
+	height:700px;
+	float: left;
+}
+#hire{
+	
+	color: blue;
+	font-style: italic;
+    font-weight: bold;
+	text-align: center;
+	font-size:5em;
+	
+	
+}
+#job-info{
+	text-align: center;
+	width:500px;
+	height:300px;
+	background-color: #269FC4;
+	margin: auto;
+	margin-top:10%;
+		
+}
+
+h3{
+	color: #E91115;
+}	
+.email{
+	color: red;
+	font-size: 1.5em;
+}
+	
+.work{
+	font-weight: lighter;
+	font-size: 1.em;
+}
+/*end of career page*/
+
+@media only screen and (min-width: 769px) and (max-width: 980px){
+	#group{
+		margin-left: 15%;
+		margint-top:15%;
+	}
+	#group2{
+		margin-left: 15%;
+		margint-top:15%;
+	}
+	#contact-page{
+		
+		margin-top: 20%;
+		margin-left: 10%;
+		font-size:0.9em;
+		}
+	#contact3{
+		font-size: 0.8em;
+	}
+	
+	#bird{
+		margin-left: 15%;
+		margin-top: 15%;
+	}
+	#media{
+		
+		margin-top: 20%;
+		margin-left: 10%;
+		
+	}
+	
+}
+
+@media only screen and (max-width: 768px){
+	nav li{
+		font-size:0.8em;
+	}
+	.welcome{
+		font-size:0.6em;
+	}
+	.legend{
+		font-size:0.8em;
+	}
+	.name1{
+		font-size: 2em;
+	}
+	.name2{
+		font-size: 2em;
+	}
+	#contact-page{
+	
+		margin-top: 15%;
+		margin-left: 10%;
+		font-size:0.9em;
+	}
+	#bird{
+		font-size: 0.8em;
+		margin-left: 15%;
+		margint-top:15%;
+		
+	}
+	#group{
+		font-size: 0.8em;
+		margin-left: 15%;
+		margint-top:15%;
+	}
+	
+	
+	#group2{
+		font-size: 0.8em;
+		margin-left: 15%;
+		margint-top:15%;
+	}
+	#bird{
+		margin-top: 15%;
+		margin-left:15%;
+	}
+	#media{
+	
+		margin-top: 15%;
+		margin-left: 10%;
+	}
+	#hire{
+		margin-right:10%;
+	}
+	.work{
+		font-size: 0.8em;
+	}
+}
+
+
+
+
+
+
+	   
+	   
+	   
+
+  
